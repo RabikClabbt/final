@@ -1,0 +1,3 @@
+$(".dise").click(function () {
+    
+  });
