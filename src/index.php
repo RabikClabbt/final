@@ -20,7 +20,7 @@
                 </ul>
             </div>
             <div class="notice">
-                <?php require './getNotice.php' ?>
+                <?php require './notice/getNotice.php' ?>
             </div>
         </div>
         <div class="footer">
