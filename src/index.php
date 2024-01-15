@@ -2,6 +2,7 @@
     <head>
         <meta charset="UTF-8">
         <title>CoCキャラクターシート保管所</title>
+        <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
         <div class="header">
@@ -10,14 +11,12 @@
         <div class="body">
             <h2>CoCキャラクターシート保管所</h2>
             <div class="Command">
-                <ul>
-                    <li>
+                    <div class="Command-1">
                         <button onclick="location.href='./listView.php'">一覧表示</button>
-                    </li>
-                    <li>
+                    </div>
+                    <div class="Command-2">
                         <button onclick="location.href='./register.php'">キャラクターシート作成</button>
-                    </li>
-                </ul>
+                    </div>
             </div>
             <div class="notice">
                 <?php require './notice/getNotice.php' ?>
