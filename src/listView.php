@@ -8,12 +8,27 @@
             <div></div>
         </div>
         <div class="body">
-            <div v-for="(, chlis) in " :key="chlis">
-                
-            </div>
-            <div class="notice">
-                <?php require './getNotice.php' ?>
-            </div>
+        <?php
+            require_once 'dbConnect.php';
+
+            try {
+                $sql = $pdo->prepare("SELECT * FROM ");
+                $sql->execute();
+
+                $result = $sql->fetchAll(PDO::FETCH_ASSOC);
+
+                // 取得した通知データを表示
+                echo '<div>';
+                foreach ($result as $row) {
+                    echo '<div>';
+                    echo '</div>';
+                }
+                echo '</div>';
+
+            } catch (PDOException $e) {
+                echo "Error: " . $e->getMessage();
+            }
+        ?>
         </div>
         <div class="footer">
             <div></div>
