@@ -7,7 +7,7 @@
 
 システム名：Coc用キャラクターシート保管所
 
-URL      ：https://black-rabbit.kilo.jp/final/src/index.php
+URL      ：https://black-rabbit.kilo.jp/src/index.php
 
 ----------
 

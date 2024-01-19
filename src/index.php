@@ -15,7 +15,7 @@
                         <button onclick="location.href='./listView.php'">一覧表示</button>
                     </div>
                     <div class="Command-2">
-                        <button onclick="location.href='./register.php'">キャラクターシート作成</button>
+                        <button onclick="location.href='./Command/charaMake.php'">キャラクターシート作成</button>
                     </div>
             </div>
             <div class="notice">

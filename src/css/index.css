@@ -4,6 +4,10 @@ body {
     align-items: center;
 }
 
+.header {
+
+}
+
 .body {
     display: flex;
     justify-content: space-between;
@@ -15,6 +19,29 @@ body {
     flex: 1;
 }
 
+.Command button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Command button:hover {
+    background-color: #45a049;
+}
+
 .notice {
     flex: 1;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }

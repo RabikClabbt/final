@@ -1,5 +1,5 @@
 <?php
-require_once 'dbConnect.php';
+require 'dbConnect.php';
 
 try {
     $stmt = $pdo->prepare("SELECT title, content, created_at FROM notifications");
